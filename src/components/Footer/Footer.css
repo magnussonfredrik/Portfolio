@@ -1,0 +1,16 @@
+.footer {
+  height: 3rem;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 2.5rem;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+}
+
+.copyright {
+  font-size: xx-small;
+  color: white;
+}
