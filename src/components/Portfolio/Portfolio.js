@@ -28,7 +28,7 @@ const Portfolio = () => {
               <img
                 className="card--image"
                 src={mapty_app}
-                alt="Girl in a jacket"
+                alt="Mapty image"
                 width="200"
                 height="200"
               />
@@ -55,7 +55,7 @@ const Portfolio = () => {
               <img
                 className="card--image"
                 src={donut_shop}
-                alt="Girl in a jacket"
+                alt="Donut shop image"
                 width="200"
                 height="200"
               />
@@ -82,7 +82,7 @@ const Portfolio = () => {
               <img
                 className="card--image"
                 src={sonar_wars}
-                alt="Girl in a jacket"
+                alt="Sonar wars poster"
                 width="200"
                 height="200"
               />
@@ -109,7 +109,7 @@ const Portfolio = () => {
               <img
                 className="card--image"
                 src={portfolio_page}
-                alt="Girl in a jacket"
+                alt="Portfolio image"
                 width="200"
                 height="200"
               />
@@ -122,7 +122,7 @@ const Portfolio = () => {
               </p>
             </CardContent>
             <Button
-              href="https://github.com/magnussonfredrik/SonarWars"
+              href="https://github.com/magnussonfredrik/Portfolio"
               target="_blank"
               variant="outlined"
               startIcon={<GitHubIcon />}

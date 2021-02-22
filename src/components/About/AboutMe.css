@@ -11,6 +11,10 @@
   );
 }
 
+section {
+  overflow: auto;
+}
+
 .about--me {
   text-align: left;
 }
