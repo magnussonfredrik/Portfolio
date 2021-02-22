@@ -43,8 +43,13 @@ section {
 }
 
 .image {
-  height: 300px;
-  width: 300px;
+  height: 250px;
+  width: 250px;
   object-fit: cover;
   border-radius: 50%;
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
 }

@@ -37,14 +37,14 @@ const AboutMe = () => {
           and participated in Swedish as well as Nordic competitions.
         </p>
         <ul className="about--me--images">
-          <li style={{ maxWidth: "300px" }}>
+          <li className="responsive">
             <img className="image" src={climbing} />
           </li>
           <li>
-            <img className="image" src={band} width="300" height="300" />
+            <img className="image" src={band} />
           </li>
           <li>
-            <img className="image" src={mountain} width="300" height="300" />
+            <img className="image" src={mountain} />
           </li>
         </ul>
       </div>
