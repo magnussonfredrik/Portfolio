@@ -8,23 +8,24 @@ const Contact = () => {
         <ul className="social--media--links">
           <li className="social--media--links-item">
             <SocialIcon
+              className="icon"
               url="https://www.linkedin.com/in/fredrik-magnusson-7b21a0159/"
               target="_blank"
-              style={{ height: 70, width: 70 }}
+              style={{ height: 50, width: 50 }}
             />
           </li>
           <li className="social--media--links-item">
             <SocialIcon
               url="mailto:fredrik.ee.magnusson@gmail.com"
               target="_blank"
-              style={{ height: 70, width: 70 }}
+              style={{ height: 50, width: 50 }}
             />
           </li>
           <li className="social--media--links-item">
             <SocialIcon
               url="https://github.com/magnussonfredrik"
               target="_blank"
-              style={{ height: 70, width: 70 }}
+              style={{ height: 50, width: 50 }}
             />
           </li>
         </ul>

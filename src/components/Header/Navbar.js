@@ -29,6 +29,28 @@ const Navbar = ({ sticky }) => (
           Previous work
         </Link>
       </li>
+      <li className="navbar--link-item">
+        <SocialIcon
+          className="icon"
+          url="https://www.linkedin.com/in/fredrik-magnusson-7b21a0159/"
+          target="_blank"
+          style={{ height: 25, width: 25 }}
+        />
+      </li>
+      <li className="navbar--link-item">
+        <SocialIcon
+          url="mailto:fredrik.ee.magnusson@gmail.com"
+          target="_blank"
+          style={{ height: 25, width: 25 }}
+        />
+      </li>
+      <li className="navbar--link-item">
+        <SocialIcon
+          url="https://github.com/magnussonfredrik"
+          target="_blank"
+          style={{ height: 25, width: 25 }}
+        />
+      </li>
     </ul>
   </nav>
 );

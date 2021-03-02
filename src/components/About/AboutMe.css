@@ -37,19 +37,15 @@ section {
 
 .about--me--images {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   list-style-type: none;
-  padding-top: 5rem;
+  padding-top: 5vh;
 }
 
 .image {
-  height: 250px;
-  width: 250px;
+  height: 30vh;
+  width: 30vh;
+  padding: 1rem;
   object-fit: cover;
   border-radius: 50%;
-}
-
-.responsive {
-  max-width: 100%;
-  height: auto;
 }

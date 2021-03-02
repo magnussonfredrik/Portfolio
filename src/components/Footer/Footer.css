@@ -14,3 +14,16 @@
   font-size: xx-small;
   color: white;
 }
+
+.social--media--links {
+  display: flex;
+  list-style: none;
+  justify-content: left;
+}
+
+.social--media--links-item {
+  -webkit-text-stroke: 0.5px black;
+  /* background-color: black; */
+  cursor: pointer;
+  margin-left: 1rem;
+}

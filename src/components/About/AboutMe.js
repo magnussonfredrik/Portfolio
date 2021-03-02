@@ -37,7 +37,7 @@ const AboutMe = () => {
           and participated in Swedish as well as Nordic competitions.
         </p>
         <ul className="about--me--images">
-          <li className="responsive">
+          <li>
             <img className="image" src={climbing} />
           </li>
           <li>

@@ -1,9 +1,8 @@
-.conctact--container {
+.contact--container {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
-  height: 20rem;
+  height: 10vh;
 }
 
 .contact--title {
@@ -12,17 +11,7 @@
   padding: 2rem 2rem;
 }
 
-.social--media--links {
-  display: flex;
-  list-style: none;
-  justify-content: center;
-  margin: 2rem 2rem;
-}
-
-.social--media--links-item {
-  -webkit-text-stroke: 0.5px black;
-  /* background-color: black; */
-
-  padding: 0 3rem;
-  cursor: pointer;
+.icon {
+  height: 100rem;
+  width: 100rem;
 }
